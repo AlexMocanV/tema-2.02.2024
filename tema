@@ -14,7 +14,111 @@
 24  cin>>n; n*(n-1) sau (int i=0;i<=n*2-2;i+=2) {s+=i;} cout<<s;
 25 int i=0;,s=0; do{s+=i;i+=2;}while(i<n)
 26 se afiseaza 024
-27 
-28
-29
-30
+27 suma nr pare pana la 10 int i=0; while(i<10) {s+=i;i+=2;}
+28 nr pare strict mai mici decat 10
+29 427
+30 loop
+153 
+1 #include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    switch(n)
+
+    {
+    case 1:
+        cout << "ianuarie";
+        break;
+    case 2:
+        cout << "februarie";
+        break;
+    case 3:
+        cout << "martie";
+        break;
+    case 4:
+        cout << "aprilie";
+        break;
+    case 5:
+        cout << "mai";
+        break;
+    case 6:
+        cout << "iunie";
+        break;
+    case 7:
+        cout << "iulie";
+        break;
+    case 8:
+        cout << "august";
+        break;
+    case 9:
+        cout << "septembrie";
+        break;
+    case 10:
+        cout << "octombrie";
+        break;
+    case 11:
+        cout << "noiembrie";
+        break;
+    case 12:
+          cout << "decembrie";
+    
+        break;
+    }
+
+
+
+
+    return 0;
+}
+2
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    switch(n)
+
+    {
+    case 1:
+        cout << 31;
+        break;
+    case 2:
+        
+        break;
+    case 3:
+        cout << 31;
+        break;
+    case 4:
+        cout << "aprilie";
+        break;
+    case 5:
+        cout << 31;
+        break;
+    case 6:
+        cout << "iunie";
+        break;
+    case 7:
+        cout << 31;
+        break;
+    case 8:
+        cout << "august";
+        break;
+    case 9:
+        cout << 31;
+        break;
+    case 10:
+        cout << "octombrie";
+        break;
+    case 11:
+        cout << 31;
+        break;
+    case 12:
+          cout << "decembrie";
+    
+        break;
+    }
+    return 0;
+}
