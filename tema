@@ -78,7 +78,7 @@ using namespace std;
 int main()
 {
     int n;
-    cin>>n;
+    cin>>a>>n;
     switch(n)
 
     {
@@ -86,37 +86,40 @@ int main()
         cout << 31;
         break;
     case 2:
-        
+        if(a%4==0&&a%100!=0)
+        cout<<29;
+        else
+        cout<<28;
         break;
     case 3:
         cout << 31;
         break;
     case 4:
-        cout << "aprilie";
+        cout << 30;
         break;
     case 5:
         cout << 31;
         break;
     case 6:
-        cout << "iunie";
+        cout << 30;
         break;
     case 7:
         cout << 31;
         break;
     case 8:
-        cout << "august";
+        cout << 31;
         break;
     case 9:
-        cout << 31;
+        cout << 30;
         break;
     case 10:
-        cout << "octombrie";
-        break;
-    case 11:
         cout << 31;
         break;
+    case 11:
+        cout << 30;
+        break;
     case 12:
-          cout << "decembrie";
+          cout << 31;
     
         break;
     }
