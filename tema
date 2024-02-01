@@ -1,0 +1,20 @@
+13
+14 for(i=0;i<10;i++) cout<<i<<" ";
+15 for(i=0;i<10;i++) cout<<i<<" ";
+16 for(i=0;i<10;i++) cout<<i<<" ";
+17 int i=0;
+    while(i<10){ cout<<i<<" "; i++}
+18 for(int i=1;i<=10;i++) cout<<5;
+19 for(i=0;i<10;i++) {cout<<i<<" ";}
+20 int i=1;
+  while(i<10) cout<<i<<" ";i+=2;
+21 cifrele de la 5 la 1 
+22 o infinitate de 1
+23 se citesc numere si se aduna pana ce suma lor devine negativa
+24  cin>>n; n*(n-1) sau (int i=0;i<=n*2-2;i+=2) {s+=i;} cout<<s;
+25 int i=0;,s=0; do{s+=i;i+=2;}while(i<n)
+26 se afiseaza 024
+27 
+28
+29
+30
